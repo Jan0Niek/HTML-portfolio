@@ -1,9 +1,14 @@
 * {
     margin: 0px;
     padding: 0px;
-  }
+    color: white;
+}
+
+img#banner{
+    width: 100%;
+}
 
 body {
 font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-background: grey url('images/achtergrondjeCoolje.jpg') repeat;
+background: rgb(67, 64, 64);
 }
