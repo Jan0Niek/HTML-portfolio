@@ -4,15 +4,21 @@
     color: white;
 }
 
-header img{
+body {
+    font-family: Verdana, Helvetica, sans-serif;
+    background: rgb(67, 64, 64);
+    position: relative;
+}
+
+header img {
     width: 100%;
 }
 
 nav ul {
-    background: rgb(67, 64, 64);
+    background: rgb(20, 20, 20);
     padding: 10px;
 }
-nav ul li{
+nav ul li {
     background: #787878;
     padding: 5px;
     border: solid 2px white;
@@ -21,14 +27,44 @@ nav ul li{
 
 nav ul li a {
     color: white;
-    text-decoration:non;
+    text-decoration:none;
 }
   
 nav ul li a:hover {
     color: #C0C0C0;
 }
 
-body {
-font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-background: rgb(67, 64, 64);
+section {
+    padding: 5px;
+    margin: 5px;
+    border: double 4px #787878;
+    border-radius: 8px 8px 20px 20px;
+}
+  
+section article {
+    border: 3px solid black;
+    border-radius: 0px 20px 20px 20px;
+    margin: 5px 10px 5px 10px;
+    padding: 10px;
+    background: #666666;
+}
+
+section article h2 {
+  font-weight:800;
+  font-variant-caps:petite-caps;
+}
+
+section article p {
+  font-weight: 100;
+}
+
+footer {
+    background: black;
+    position:absolute;
+    bottom: -100;
+    width: 100%;
+}
+footer h5 {
+    text-align: center;
+    font-variant-caps:small-caps;
 }
