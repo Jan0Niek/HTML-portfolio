@@ -7,6 +7,10 @@
 body {
     font-family: Verdana, Helvetica, sans-serif;
     background: rgb(67, 64, 64);
+}
+.wrapper {
+    margin: 0 auto 0 auto;
+    width: 1080px;
     position: relative;
 }
 
