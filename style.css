@@ -82,3 +82,13 @@ footer h5 {
     font-variant-caps:small-caps;
     position: relative;
 }
+
+#opdrachtenlijst {
+    text-align: center;
+}
+
+#opdrachtenlijst ul {
+    display: inline-block;
+    text-align: left;
+    list-style-type:none;
+}
