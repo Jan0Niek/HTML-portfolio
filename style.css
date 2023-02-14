@@ -92,3 +92,49 @@ footer h5 {
     text-align: left;
     list-style-type:none;
 }
+
+div#groen {
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    z-index: 45;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+div#rood {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+div#geel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 260px;
+    height: 260px;
+    background-color: yellow;
+}
+div#zwart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+div#blauw {
+    position: absolute;
+    top: 180px;
+    left: 180px;
+    z-index: 3;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
