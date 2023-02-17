@@ -12,11 +12,26 @@ body {
     margin: 0 auto 0 auto;
     width: 1080px;
     position: relative;
+    min-height:100vmin;
 }
 
 header img {
     width: 100%;
 }
+
+a:link {
+    color: darkblue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color:darkred;
+}
+
+a:active {color: rebeccapurple;}
 
 nav ul {
     background: rgb(20, 20, 20);
@@ -29,13 +44,21 @@ nav ul li {
     display: inline-block;
 }
 
-nav ul li a {
+nav ul li a:link {
     color: white;
     text-decoration:none;
 }
-  
+nav ul li a:visited {
+    color: white;
+    text-decoration:none;
+}
 nav ul li a:hover {
-    color: #C0C0C0;
+    color: darkred;
+    text-decoration:none;
+}
+nav ul li a:active {
+    color: red;
+    text-decoration:none;
 }
 
 section {
@@ -65,7 +88,8 @@ section article p {
 footer {
     background: black;
     position:absolute;
-    bottom: -100;
+    border-radius: 15px 15px 0px 0px;
+    bottom: 0%;
     width: 100%;
 }
 
@@ -92,6 +116,11 @@ footer h5 {
     text-align: left;
     list-style-type:none;
 }
+
+
+
+
+
 
 div#groen {
     position: absolute;
