@@ -12,7 +12,7 @@ body {
     margin: 0 auto 0 auto;
     width: 1080px;
     position: relative;
-    min-height:100vmin;
+    min-height: 100vmin;
 }
 
 header img {
@@ -88,10 +88,11 @@ section article p {
 footer {
     background: black;
     position:absolute;
-    border-radius: 15px 15px 0px 0px;
     bottom: 0%;
+    border-radius: 15px 15px 0px 0px;
     width: 100%;
 }
+footer.lowerfoot {bottom: -40px;}
 
 footer img {
     float:left;
