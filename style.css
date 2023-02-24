@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains');
 
 * {
     margin: 0px;
@@ -46,6 +46,8 @@ nav ul li {
     border: solid 2px white;
     display: inline-block;
     font-family: 'JetBrains Mono', monospace;
+    font-weight:500;
+    font-size: larger;
 }
 
 nav ul li a:link {
