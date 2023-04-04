@@ -89,10 +89,11 @@ section article {
 section article h2 {
   font-weight:800;
   font-variant-caps:petite-caps;
+  border-bottom: dotted black;
 }
 
 section article p {
-  font-weight: 100;
+  margin: 2.5px;
 }
 
 footer {
