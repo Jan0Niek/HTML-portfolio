@@ -85,7 +85,11 @@ section article {
     padding: 10px;
     background: #666666;
 }
-
+section article h1 {
+    font-weight:800;
+    font-variant-caps:petite-caps;
+    border-bottom: dotted black;
+}
 section article h2 {
   font-weight:800;
   font-variant-caps:petite-caps;
